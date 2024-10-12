@@ -585,17 +585,6 @@
       "subtitles": "always"
     },
     {
-      "id": "win",
-      "mood": ["shocked", "hopeful"],
-      "hero": 5,
-      "text": {
-        "name": "Win",
-        "location": "Collingwood, VIC",
-        "description": "Although Win is scared for his friends and family, it’s his privilege that occupies his thoughts during this time."
-      },
-      "subtitles": "always"
-    },
-    {
       "id": "aynurcilli",
       "mood": ["sad"],
       "hero": 3,

@@ -55,11 +55,37 @@ const Thumbnail = (props) => {
         props.isMain ? largeAlphaMap : smallAlphaMap
     );
 
-    const map = useLazyTextureLoader(
-        `images/${props.id}-0${props.thumbOrder[props.index]}-${
-      props.isMain ? "512" : "256"
-    }.jpg`
-    );
+    const imageList = ['image1.jpg', 'image2.jpg', 'image3.jpg', ...]; // Resim listesi
+
+    const LazyLoadedRandomImages = () => {
+      const [randomImage, setRandomImage] = useState('');
+      const [position, setPosition] = useState({ top: '0px', left: '0px' });
+    
+      useEffect(() => {
+        // Rastgele bir resim seç
+        const randomImg = imageList[Math.floor(Math.random() * imageList.length)];
+        setRandomImage(randomImg);
+    
+        // Rastgele bir konum belirle
+        const randomTop = Math.floor(Math.random() * window.innerHeight) + 'px';
+        const randomLeft = Math.floor(Math.random() * window.innerWidth) + 'px';
+        setPosition({ top: randomTop, left: randomLeft });
+      }, []);
+    
+      return (
+        <img
+          src={`images/${randomImage}`}
+          style={{
+            position: 'absolute',
+            top: position.top,
+            left: position.left,
+            width: '200px', // İsteğe göre boyutlandırma
+            height: 'auto',
+          }}
+          alt="Random"
+        />
+      );
+    };
 
     const [animate, setAnimate] = useState("none");
     const [hasDoneInitialAnimation, setHasDoneIntitialAnimation] = useState(
