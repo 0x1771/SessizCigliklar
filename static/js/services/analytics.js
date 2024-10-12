@@ -100,7 +100,7 @@ if (digitalData.page.pageInfo.hasOwnProperty("pageName")) {
 //setting the referrer properties
 if (
     document.referrer !== "" &&
-    document.referrer.indexOf("sbs.com.au") === -1
+    document.referrer.indexOf("sessizcigliklar.com") === -1
 ) {
     digitalData.page.pageInfo["referralURL"] = document.referrer;
 
