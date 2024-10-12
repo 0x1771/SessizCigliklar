@@ -11,7 +11,7 @@ export default defineConfig({
   // so just run npm build before pushing to GitHub and this will rebuild our assets to the root
   build: { outDir: '..' },
   // needed for github pages just put the repo name here
-  base: '/your-repo-name-here/', 
+  base: '/SessizCigliklar/', 
 
 // https://vitejs.dev/config/
   plugins: [
