@@ -2009,7 +2009,7 @@
                     }, "Anlatmak ya da Eklemek İçin Ulaşın.")), c.a.createElement("div", {
                         className: "record-button-container"
                     }, c.a.createElement("a", {
-                        href: "tel:18008433333"
+                        href: "8433333"
                     }, c.a.createElement(ue.a.div, {
                         style: {
                             height: p.height.interpolate((function(e) {

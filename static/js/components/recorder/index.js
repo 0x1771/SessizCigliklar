@@ -206,7 +206,7 @@ const Recorder = (props) => {
             </AnimateText>
           </div>
           <div className="record-button-container">
-            <a href="tel:18008433333">
+            <a href="mailto:destek@sessizcigliklar.com">
               <animated.div
                 style={{
                   height: buttonStyle.height.interpolate((v) => `${v}px`),
