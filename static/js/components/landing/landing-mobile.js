@@ -94,7 +94,7 @@ const Landing = (props) => {
         <
         Label { ...labelDefaults
         } >
-        When the world went into lockdown, The Feed set up a phone line to receive voice memos from all\ nover Australia. <
+        Her kadın bir hikaye taşıyor, her bir hayat eşsiz ve değerli. Bu platform, şiddet ve haksızlık sonucu hayatlarını kaybeden kadınların hatıralarını yaşatmak, toplumda farkındalık yaratmak ve adalet için bir araya gelmiş bir dayanışma alanıdır. <
         /Label> <
         /group>
 
@@ -105,7 +105,7 @@ const Landing = (props) => {
         <
         Label { ...labelDefaults
         } >
-        This is the story of COVID - 19, as told by you. <
+        Kaybolan Hayatlar, Sessiz Kalmayacak <
         /Label> <
         /group>
 

@@ -2444,9 +2444,9 @@
                         map: r
                     }, wn))), c.a.createElement("group", {
                         position: [-1.05, .04, 0]
-                    }, c.a.createElement(En, Nn, "When the world went into lockdown, The Feed set up a phone line to receive voice memos from all\\nover Australia.")), c.a.createElement("group", {
+                    }, c.a.createElement(En, Nn, "Her kadın bir hikaye taşıyor, her bir hayat eşsiz ve değerli. Bu platform, şiddet ve haksızlık sonucu hayatlarını kaybeden kadınların hatıralarını yaşatmak, toplumda farkındalık yaratmak ve adalet için bir araya gelmiş bir dayanışma alanıdır.")), c.a.createElement("group", {
                         position: [-1.05, -1, 0]
-                    }, c.a.createElement(En, Nn, "This is the story of COVID-19, as told by you.")), c.a.createElement("group", {
+                    }, c.a.createElement(En, Nn, "Kaybolan Hayatlar, Sessiz Kalmayacak")), c.a.createElement("group", {
                         position: [-1.05, -2, 0]
                     }, c.a.createElement(En, Object.assign({}, Nn, {
                         font: Hn.a
