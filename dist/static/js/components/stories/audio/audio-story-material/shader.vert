@@ -1,0 +1,1 @@
+module.exports = "#define GLSLIFY 1\nvarying vec2 vUv;\n\nvoid main() {\n\tvUv = uv;\n\tgl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\n}";
