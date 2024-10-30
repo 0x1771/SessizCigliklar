@@ -3432,8 +3432,8 @@
                         })),
                         r = Object(R.a)(a, 1)[0],
                         i = ta(e.isMain ? ka.a : Da.a),
-                        s = na("images/".concat(e.id, "-0").concat(e.thumbOrder[e.index], "-").concat(e.isMain ? "512" : "256", ".jpg")),
-                        u = Object(o.useState)("none"),
+                        s = na("images/image".concat(e.index + 1, ".jpg"));
+                        u = Object(o.useState)("none"), 
                         l = Object(R.a)(u, 2),
                         f = l[0],
                         m = l[1],

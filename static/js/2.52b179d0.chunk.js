@@ -14110,32 +14110,7 @@
             setBuffer: function(e) {
                 return this.buffer = e, this.sourceType = "buffer", this.autoplay && this.play(), this
             },
-            play: function(e) {
-                if (void 0 === e && (e = 0), !0 !== this.isPlaying) {
-                    if (!1 !== this.hasPlaybackControl) {
-                        this._startedAt = this.context.currentTime + e;
-                        var t = this.context.createBufferSource();
-                        return t.buffer = this.buffer, t.loop = this.loop, t.loopStart = this.loopStart, t.loopEnd = this.loopEnd, t.onended = this.onEnded.bind(this), t.start(this._startedAt, this._progress + this.offset, this.duration), this.isPlaying = !0, this.source = t, this.setDetune(this.detune), this.setPlaybackRate(this.playbackRate), this.connect()
-                    }
-                    console.warn("THREE.Audio: this Audio has no playback control.")
-                } else console.warn("THREE.Audio: Audio is already playing.")
-            },
-            pause: function() {
-                if (!1 !== this.hasPlaybackControl) return !0 === this.isPlaying && (this._progress += Math.max(this.context.currentTime - this._startedAt, 0) * this.playbackRate, !0 === this.loop && (this._progress = this._progress % (this.duration || this.buffer.duration)), this.source.stop(), this.source.onended = null, this.isPlaying = !1), this;
-                console.warn("THREE.Audio: this Audio has no playback control.")
-            },
-            stop: function() {
-                if (!1 !== this.hasPlaybackControl) return this._progress = 0, this.source.stop(), this.source.onended = null, this.isPlaying = !1, this;
-                console.warn("THREE.Audio: this Audio has no playback control.")
-            },
-            connect: function() {
-                if (this.filters.length > 0) {
-                    this.source.connect(this.filters[0]);
-                    for (var e = 1, t = this.filters.length; e < t; e++) this.filters[e - 1].connect(this.filters[e]);
-                    this.filters[this.filters.length - 1].connect(this.getOutput())
-                } else this.source.connect(this.getOutput());
-                return this
-            },
+            
             disconnect: function() {
                 if (this.filters.length > 0) {
                     this.source.disconnect(this.filters[0]);
