@@ -1,4 +1,4 @@
-(this["webpackJsonpthe-feed-covid-19"] = this["webpackJsonpthe-feed-covid-19"] || []).push([
+(this["webpackJsonpthe-feed-woman"] = this["webpackJsonpthe-feed-woman"] || []).push([
     [0],
     [, , , function(e, n) {
         e.exports = "<div class=fail-message> <p>%platform% is not supported.</p> <p> The Feed \u2019s <strong>Story Line</strong> works with current desktop Chrome, Firefox, Safari and Opera. On mobile, current Safari and Chrome are supported. </p> <p> For support, please contact <a href=mailto:comments@sessizcigliklar.com>comments@sessizcigliklar.com</a>. </p> </div> "

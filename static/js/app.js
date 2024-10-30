@@ -33,9 +33,6 @@ const useFetch = (url, options) => {
 
 const App = () => {
     const store = useStore();
-    const history = createBrowserHistory({
-        basename: process.env.NODE_ENV === "production" ? "/storyline" : "/",
-    });
     const data = useFetch(serviceURL);
 
     useEffect(() => {
@@ -46,12 +43,7 @@ const App = () => {
         }
     }, [data, store]); // Add store to the dependencies
 
-    useEffect(() => {
-        history.location.pathname === "/"
-            ? store.setAutoplayState(true)
-            : store.setAutoplayState(issues.AUTOPLAY);
-    }, [issues.AUTOPLAY, store, history]); // Add store and history to the dependencies
-
+-
     useEffect(() => {
         if (process.env.NODE_ENV === "production") {
             Analytics.init();
@@ -81,15 +73,6 @@ const App = () => {
                         <Suspense fallback={<FixedHTML><Preloader /></FixedHTML>}>
                             <ambientLight intensity={1} />
                             <Post />
-                            <Route
-                                path="/:id?"
-                                render={(routeProps) => (
-                                    <StoryBrowser
-                                        key="story-browser"
-                                        pathname={routeProps.location.pathname}
-                                    />
-                                )}
-                            />
                         </Suspense>
                     </Canvas>
                 </Router>

@@ -1,5 +1,5 @@
 /*! For license information please see 2.52b179d0.chunk.js.LICENSE.txt */
-(this["webpackJsonpthe-feed-covid-19"] = this["webpackJsonpthe-feed-covid-19"] || []).push([
+(this["webpackJsonpthe-feed-woman"] = this["webpackJsonpthe-feed-woman"] || []).push([
     [2],
     [, , , , , , , , , , , , , function(e, t, n) {
         "use strict";

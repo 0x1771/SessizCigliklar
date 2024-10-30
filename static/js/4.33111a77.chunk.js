@@ -1,5 +1,5 @@
 /*! For license information please see 4.33111a77.chunk.js.LICENSE.txt */
-(this["webpackJsonpthe-feed-covid-19"] = this["webpackJsonpthe-feed-covid-19"] || []).push([
+(this["webpackJsonpthe-feed-woman"] = this["webpackJsonpthe-feed-woman"] || []).push([
     [4],
     [function(e, t, r) {
         e.exports = r(8)

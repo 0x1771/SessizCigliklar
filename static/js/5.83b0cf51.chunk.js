@@ -1,4 +1,4 @@
-(this["webpackJsonpthe-feed-covid-19"] = this["webpackJsonpthe-feed-covid-19"] || []).push([
+(this["webpackJsonpthe-feed-woman"] = this["webpackJsonpthe-feed-woman"] || []).push([
     [5], {
         11: function(e, o, n) {
             "use strict";

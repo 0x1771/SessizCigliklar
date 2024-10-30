@@ -12,12 +12,6 @@ const get = mem((id, type) => {
 
     const mediaElement = document.createElement(type);
 
-    mediaElement.src =
-        type === "video" ?
-        `videos/${id}-${
-          glQuality.get() <= glQuality.LOW || issues.MOBILE ? "512" : "1024"
-        }.mp4` :
-        `audio/${id}.mp3`;
 
     if (type === "video") mediaElement.playsInline = true;
     mediaElement.preload = "none";

@@ -119,7 +119,7 @@ const Landing = (props) => {
         font = {
             fontBold
         } >
-        Swipe to explore <
+        Keşfetmek İçin Kaydır. <
         /Label> <
         /group> <
         /group>
