@@ -1,8 +1,6 @@
 import Background from "components/background";
 import Landing from "components/landing";
 import Lines from "components/lines";
-import AudioStory from "components/stories/audio";
-import VideoStory from "components/stories/video";
 import { useStore } from "hooks/use-store";
 import { observer } from "mobx-react-lite";
 import React, { useEffect, useMemo, useState } from "react";

@@ -2,6 +2,7 @@
   "video": [
     {
       "id": "yesimyalcıntas",
+      "link": "https://www.hurriyet.com.tr/gundem/eski-sevgilisini-oldurup-intihar-etti-25485628",
       "mood": ["hopeful", "love"],
       "hero": 1,
       "text": {
@@ -13,6 +14,7 @@
     },     
     {
       "id": "bedriyeisik",
+      "link": "https://www.sabah.com.tr/yasam/handa-esini-oldurdukten-sonra-intihar-etti-7109643",
       "mood": ["hopeful", "love"],
       "hero": 4,
       "text": {
@@ -801,6 +803,7 @@
     },
     {
       "id": "eminebulut",
+      "link": "https://www.youtube.com/watch?v=FdJB4hhxUj4",
       "mood": ["olay"],
       "quality": "low",
       "text": {

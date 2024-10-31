@@ -3886,7 +3886,7 @@
                                     f && (i = !0);
                                     var m = c.a.createElement(Oa, {
                                         cameraHintId: l,
-                                        id: o.id,
+                                        id: o.link,
                                         isActive: f,
                                         key: "audio-".concat(r),
                                         type: "audio",
@@ -4067,7 +4067,7 @@
                     }), c.a.createElement(ut, null), c.a.createElement(xe.b, {
                         history: t
                     }, c.a.createElement(xe.a, {
-                        path: "/:id?",
+                        path: "/:link?",
                         render: function(e) {
                             return c.a.createElement(Xa, {
                                 key: "story-browser",
@@ -4087,7 +4087,7 @@
                         return r.a.wrap((function(e) {
                             for (;;) switch (e.prev = e.next) {
                                 case 0:
-                                    return t = "\n  Hello! Coded by us:\n  \ud83e\uddd0matt@gun.net.au | @ktingvoar\n  \ud83d\ude0bramkumarshankar@hey.com | @ramkumarshankar\n  \n  Version: ".concat("1.4.0", "\n  "), console.log(t), Ya(), e.next = 5, T.init();
+                                    return t = "\n  Hello! Coded by us:\n  \ud83e\uddd0https://instagram.com/mikailustunerr | mikail ustuner\n  \ud83d\ude0bhttps://instagram.com/hamzakahraman | hamza kahraman\n  \n  Version: ".concat("1.4.0", "\n  "), console.log(t), Ya(), e.next = 5, T.init();
                                 case 5:
                                     u.a.render(c.a.createElement(c.a.StrictMode, null, c.a.createElement(Ga, null)), document.getElementById("root"));
                                 case 6:
